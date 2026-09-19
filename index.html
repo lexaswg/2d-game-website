@@ -3,26 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Star Drift</title>
+    <title>Moonveil Hollow</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="game-shell">
+    <main class="game-shell">
       <div class="hud">
-        <div><span>Score</span> <strong id="score">0</strong></div>
-        <div><span>Lives</span> <strong id="lives">3</strong></div>
+        <div><span>Echoes</span> <strong id="score">0</strong></div>
+        <div><span>Vigor</span> <strong id="lives">5</strong></div>
+        <div class="controls">WASD move · J / Space strike</div>
       </div>
-
-      <canvas id="gameCanvas" width="960" height="540"></canvas>
-
+      <canvas id="gameCanvas" width="960" height="540" aria-label="Moonveil Hollow game"></canvas>
       <div id="overlay" class="overlay visible">
-        <h1>Star Drift</h1>
-        <p>Move with WASD or Arrow Keys</p>
-        <p>Shoot with Space</p>
-        <button id="startButton">Start Game</button>
+        <p class="eyebrow">A small original gothic adventure</p>
+        <h1>Moonveil Hollow</h1>
+        <p>Explore the forgotten caverns beneath the moonlit ruins.</p>
+        <p>Move with <b>W A S D</b> · Strike with <b>J</b> or <b>Space</b></p>
+        <button id="startButton">Enter the Hollow</button>
       </div>
-    </div>
-
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
